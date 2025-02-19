@@ -8,6 +8,49 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div>
+			<label for="name" description="Text Input">Name*</label>
+			<input type="text" required id="name" placeholder="Name">
+		</div>
+		<div>
+			<label for="email" description="Email Input">Email*</label>
+			<input type="email" required id="email" placeholder="Email">
+		</div>
+		<div class="gender">
+			<label description="Radio Buttons">Gender*</label>
+			<input type="radio" id="female" required>
+			<label for="female">Female</label>
+			<input type="radio" id="male" required>
+			<label for="male">Male</label>
+		</div>
+		<div>
+			<label for="laptop" description="Dropdown">Laptop Brands</label>
+			<select type="select" id="laptop">
+				<option value="default">Select laptop breands</option>
+				<option value="1">Apple</option>
+				<option value="2">Asus</option>
+				<option value="3">HP</option>
+			</select>
+		</div>
+		<div>
+			<label for="age" description="Number Input">Age*</label>
+			<input type="number" id="age" required placeholder="Age">
+		</div>
+		<div>
+			<label for="dob" description="Date Input">Date of Birth*</label>
+			<input type="number" id="dob" required>
+		</div>
+		<div>
+			<label for="password" description="Password Input">Password*</label>
+			<input type="password" id="password" required>
+		</div>
+		<div>
+			<label for="portfolio" description="URL Input">Portfolio URL</label>
+			<input type="url" id="portfolio" placeholder="URL input">
+		</div>
+		<button type="button" description="Button">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
